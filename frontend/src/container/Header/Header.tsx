@@ -1,6 +1,11 @@
 import './Header.sass'
+
 import { motion } from 'framer-motion'
+
+import { AppWrap } from '@/wrapper'
+
 import { images } from '../../constants'
+
 const scaleVariants = {
   whileInView: {
     scale: [0, 1],
@@ -55,7 +60,7 @@ const Header = () => {
       >
         {[images.react, images.redux, images.javascript].map(
           (circle, index) => (
-            <div className='circle-cmp app__flex' key={`circle-${index}`}>
+            <div key={`circle-${index}`} className='circle-cmp app__flex'>
               <img src={circle} alt='circle' />
             </div>
           )
@@ -65,4 +70,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default AppWrap(Header, 'home', 'app__header')

@@ -27,6 +27,9 @@
     "src/**/**.tsx",
     "vite.config.*",
     "jest.setup.ts",
+    "./node_modules/@sanity/base/types/**/*.ts",
+    "./**/*.ts",
+    "./**/*.tsx",
     "__mocks__"
   ]
 }

@@ -1,5 +1,5 @@
 import './index.scss'
-import './App.sass'
+import './App.scss'
 
 import { Navbar } from './components'
 import {

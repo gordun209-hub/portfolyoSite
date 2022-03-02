@@ -8,7 +8,6 @@
     "plugin:jsx-a11y/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:ramda/recommended",
-    "plugin:stylelint-config-standart",
     "plugin:react-redux/recommended",
     "plugin:prettier/recommended"
   ],
