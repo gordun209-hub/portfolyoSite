@@ -1,5 +1,3 @@
-import { Component, ReactChild } from 'react'
-
 import { SocialMedia } from '@/components/SocialMedia'
 
 import { NavigationDots } from '../components/NavigationDots'
