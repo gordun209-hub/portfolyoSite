@@ -55,20 +55,18 @@ const Work = () => {
       </h2>
 
       <div className='app__work-filter'>
-        {['Web App', 'React JS', 'Nextjs', 'MERN Projects', 'All'].map(
-          (item, index) => (
-            <div
-              key={index}
-              aria-hidden='true'
-              className={`app__work-filter-item app__flex p-text ${
-                activeFilter === item ? 'item-active' : ''
-              }`}
-              onClick={() => handleWorkFilter(item)}
-            >
-              {item}
-            </div>
-          )
-        )}
+        {['Web App', 'Nextjs', 'All'].map((item, index) => (
+          <div
+            key={index}
+            aria-hidden='true'
+            className={`app__work-filter-item app__flex p-text ${
+              activeFilter === item ? 'item-active' : ''
+            }`}
+            onClick={() => handleWorkFilter(item)}
+          >
+            {item}
+          </div>
+        ))}
       </div>
 
       <motion.div

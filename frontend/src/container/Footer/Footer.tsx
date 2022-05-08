@@ -1,7 +1,5 @@
 import './Footer.scss'
 
-const Footer = () => {
-  return <div>Footer</div>
-}
+const Footer = () => {}
 
 export default Footer

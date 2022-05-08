@@ -26,11 +26,11 @@ const About = () => {
   return (
     <>
       <h2 className='head-text'>
-        I know that
-        <span> Css </span>
+        I love
+        <span> Web </span>
         <br />
-        is
-        <span> Horse SHit </span>
+        development
+        <span> with fullstack </span>
       </h2>
       <div className='app__profiles'>
         {abouts.map((about, index) => (
